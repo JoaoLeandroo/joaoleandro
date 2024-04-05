@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Roboto } from "next/font/google";
+import { Poppins } from "next/font/google";
 import "./globals.css";
 
-const inter = Roboto({ subsets: ["latin"], weight: [
+const font = Poppins({ subsets: ["latin"], weight: [
   "100",
   "300",
   "400",
@@ -23,7 +23,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
-      <body className={inter.className}>{children}</body>
+      <body className={`${font.className} bg-gradient-to-r from-slate-900 to-indigo-950`}>{children}</body>
     </html>
   );
 }
