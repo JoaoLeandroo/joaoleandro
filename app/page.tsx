@@ -2,6 +2,8 @@ import Container from "@/components/Container";
 import BoxScroll from "@/components/BoxScroll";
 import Contacts from "@/components/Contacts";
 import SkillsBar from "@/components/SkillsBar";
+import CardProjects from "@/components/CardProjects";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -62,10 +64,13 @@ export default function Home() {
             </div>
           </BoxScroll>
           <BoxScroll>
-            <div className="mt-5">
+            <div className="mt-5 flex flex-col gap-2">
               <h2 className="text-2xl font-semibold text-emerald-300">Projetos</h2>
+              <CardProjects imagem="imagemTeste.jpg" titulo="Titulo do projeto..." description="Descrição detalhada do projeto..."/>
             </div>
           </BoxScroll>
+
+          <Footer/>
         </div>
       </div>
     </Container>
