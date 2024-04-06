@@ -1,6 +1,7 @@
 import Container from "@/components/Container";
 import BoxScroll from "@/components/BoxScroll";
 import Contacts from "@/components/Contacts";
+import SkillsBar from "@/components/SkillsBar";
 
 export default function Home() {
   return (
@@ -23,7 +24,7 @@ export default function Home() {
 
         <div className="flex flex-col items-end lg:absolute relative top-0 right-0 w-full lg:w-1/2">
           <BoxScroll>
-            <div className="flex flex-col gap-y-5 py-20">
+            <div className="flex flex-col gap-y-5 lg:pt-20 pt-16">
               <h2 className="text-2xl font-semibold text-emerald-300">Sobre</h2>
               <p className="text-slate-400/80">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -49,6 +50,20 @@ export default function Home() {
                 Lorem Ipsum.
                 <br />
               </p>
+            </div>
+          </BoxScroll>
+          <BoxScroll>
+            <div className="mt-5">
+              <h2 className="text-2xl font-semibold text-emerald-300">Habilidades</h2>
+              <p className="text-slate-400/80">
+                Breve resumo...
+              </p>
+              <SkillsBar/>
+            </div>
+          </BoxScroll>
+          <BoxScroll>
+            <div className="mt-5">
+              <h2 className="text-2xl font-semibold text-emerald-300">Projetos</h2>
             </div>
           </BoxScroll>
         </div>
