@@ -1,56 +1,46 @@
 import Container from "@/components/Container";
 import BoxScroll from "@/components/BoxScroll";
-import Contacts from "@/components/Contacts";
 import SkillsBar from "@/components/SkillsBar";
 import CardProjects from "@/components/CardProjects";
 import Footer from "@/components/Footer";
+import MyInfos from './../components/MyInfos';
 
 export default function Home() {
   return (
     <Container>
       <div className="flex flex-col relative min-h-screen">
-        <section className="lg:fixed relative h-full border-l-2 border-slate-600 border-r-2">
-          <div className="py-20 px-8 flex flex-col gap-y-4 lg:items-start lg:justify-left items-center justify-center">
-            <h1 className="text-5xl font-bold drop-shadow-xl text-slate-300">
-              João Leandro
-            </h1>
-            <p className="text-xl font-medium">Junior Frontend Engineer</p>
-            <p className="text-md text-slate-400 font-medium">
-              Eu construo experiências digitais <br /> perfeitas, envolventes e
-              acessíveis.
-            </p>
-          </div>
-
-          <Contacts />
-        </section>
-
+        <MyInfos/>
         <div className="flex flex-col items-end lg:absolute relative top-0 right-0 w-full lg:w-1/2">
           <BoxScroll>
             <div className="flex flex-col gap-y-5 lg:pt-20 pt-16">
               <h2 className="text-2xl font-semibold text-emerald-300">Sobre</h2>
               <p className="text-slate-400/80">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged. It was
-                popularised in the 1960s with the release of Letraset sheets
-                containing Lorem Ipsum passages, and more recently with desktop
-                publishing software like Aldus PageMaker including versions of
-                Lorem Ipsum.
+                Olá! Meu nome é <span className="text-white">João Leandro</span> e sou apaixonado por tecnologia e
+                desenvolvimento web. Graduei-me em Análise e Desenvolvimento de
+                Sistemas e desde então tenho trilhado uma jornada empolgante no
+                mundo da programação.
                 <br />
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged. It was
-                popularised in the 1960s with the release of Letraset sheets
-                containing Lorem Ipsum passages, and more recently with desktop
-                publishing software like Aldus PageMaker including versions of
-                Lorem Ipsum.
+                Minha jornada começou em 2021, quando fui apresentado ao
+                fascinante universo da programação por meio de amigos que
+                compartilhavam o mesmo interesse em um jogo online chamado Rose
+                Online. A curiosidade despertada naquele momento me levou a
+                mergulhar mais fundo no assunto, e foi assim que minha paixão
+                pelo desenvolvimento web nasceu.
                 <br />
+                Desde então, tenho dedicado meu tempo e energia ao aprendizado
+                contínuo, explorando diversas linguagens e tecnologias. Minha
+                principal stack é o <span className="text-white">JavaScript</span> para o desenvolvimento frontend,
+                onde posso dar vida às minhas ideias e criar experiências
+                interativas e dinâmicas para os usuários. No entanto, meu
+                conhecimento não se limita apenas ao Javascript; também possuo
+                habilidades sólidas em outras linguagens, como <span className="text-white">Python</span>, e estou
+                familiarizado com uma variedade de ferramentas do ecossistema
+                JavaScript, incluindo bibliotecas e frameworks.
+                <br />
+                <span className="text-white">Estou constantemente buscando novos desafios e oportunidades
+                para expandir meu conhecimento e aprimorar minhas habilidades.</span>
+                Sou apaixonado por criar soluções inovadoras e funcionais que
+                tenham um impacto positivo na vida das pessoas.
               </p>
             </div>
           </BoxScroll>
@@ -116,25 +106,25 @@ export default function Home() {
                 description="Projeto feito para demonstrar a grandiosidade da transformação do gear five, do personagem Luffy do anime One piece."
                 url="https://joaoleandroo.github.io/luffy-gear-five/"
               />
-                            <CardProjects
+              <CardProjects
                 imagem="/assets/save-websites.jpg"
                 titulo="Save websites"
                 description="Esse projeto foi inspirado no modo do google de salvar o link dos websites favoritos"
                 url="https://add-links-websites.vercel.app/"
               />
-                            <CardProjects
+              <CardProjects
                 imagem="/assets/lista-tarefas.jpg"
                 titulo="Lista de Tarefas"
                 description="Lista de tarefas com todos os requisitos de um CRUD, criar, ler, atualizar e deletar uma tarefa. Também foi utilizado o salvamento do localstorage."
                 url="https://joaoleandroo.github.io/task-list/"
               />
-                            <CardProjects
+              <CardProjects
                 imagem="/assets/prime-flix.jpg"
                 titulo="Prime Flix"
                 description="Dentro desse projeto é consumida uma API de filmes, onde é possível salvar os filmes favoritos e visualizar os filmes em cartaz no cinema."
                 url="https://jl-movies.netlify.app/"
               />
-                                          <CardProjects
+              <CardProjects
                 imagem="/assets/projeto-music.jpg"
                 titulo="Projeto Musica"
                 description="Projeto de musica landing page"
