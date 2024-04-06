@@ -1,11 +1,12 @@
 import Container from "@/components/Container";
 import BoxScroll from "@/components/BoxScroll";
+import Contacts from "@/components/Contacts";
 
 export default function Home() {
   return (
     <Container>
-      <div className="flex flex-col relative">
-        <section className="lg:fixed relative">
+      <div className="flex flex-col relative min-h-screen">
+        <section className="lg:fixed relative h-full border-l-2 border-slate-600 border-r-2">
           <div className="py-20 px-8 flex flex-col gap-y-4 lg:items-start lg:justify-left items-center justify-center">
             <h1 className="text-5xl font-bold drop-shadow-xl text-slate-300">
               João Leandro
@@ -16,12 +17,14 @@ export default function Home() {
               acessíveis.
             </p>
           </div>
+
+        <Contacts/>
         </section>
 
         <div className="flex flex-col items-end lg:absolute relative top-0 right-0 w-full lg:w-1/2">
           <BoxScroll>
             <div className="flex flex-col gap-y-5 py-20">
-              <h2 className="text-2xl font-semibold text-slate-400">Sobre</h2>
+              <h2 className="text-2xl font-semibold text-emerald-300">Sobre</h2>
               <p className="text-slate-400/80">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
