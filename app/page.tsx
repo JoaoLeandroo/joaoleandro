@@ -12,7 +12,7 @@ export default function Home() {
         <MyInfos/>
         <div className="flex flex-col items-end lg:absolute relative top-0 right-0 w-full lg:w-1/2">
           <BoxScroll>
-            <div className="flex flex-col gap-y-5 lg:pt-20 pt-16">
+            <div className="flex flex-col lg:pt-20 pt-16">
               <h2 className="text-2xl font-semibold text-emerald-300">Sobre</h2>
               <p className="text-slate-400/80">
                 Olá! Meu nome é <span className="text-white">João Leandro</span> e sou apaixonado por tecnologia e
@@ -45,16 +45,22 @@ export default function Home() {
             </div>
           </BoxScroll>
           <BoxScroll>
-            <div className="mt-5">
+            <div className="mt-8">
               <h2 className="text-2xl font-semibold text-emerald-300">
                 Habilidades
               </h2>
-              <p className="text-slate-400/80">Breve resumo...</p>
+              <p className="text-slate-400/80">
+                <span className="text-white">Com um forte domínio do JavaScript, sou capaz de criar interfaces dinâmicas e interativas para aplicativos da web.</span> Minha experiência inclui o uso de bibliotecas e frameworks populares, como React.js e NextJS.
+              </p>
+              <br />
+              <span className="text-slate-400/80">
+              Abaixo algumas das tecnologias que possuo um bom domínio: 
+              </span>
               <SkillsBar />
             </div>
           </BoxScroll>
           <BoxScroll>
-            <div className="mt-5 flex flex-col gap-8">
+            <div className="mt-5 flex flex-col gap-3">
               <h2 className="text-2xl font-semibold text-emerald-300">
                 Projetos
               </h2>
