@@ -104,7 +104,7 @@ export default function Home() {
                 imagem="/assets/one-piece-live-action.jpg"
                 titulo="One piece - Liveaction"
                 description="Projeto inspirado no lançamento do liveaction do anime One Piece."
-                url="https://one-piece-liveaction-7gtpptsyu-joaoleandroo.vercel.app/"
+                url="https://one-piece-liveaction-itkg.vercel.app/"
               />
               <CardProjects
                 imagem="/assets/luffy-gear-five.jpg"
