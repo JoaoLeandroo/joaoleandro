@@ -20,7 +20,7 @@ export default function Home() {
                 Sistemas e desde então tenho trilhado uma jornada empolgante no
                 mundo da programação.
                 <br />
-                Minha jornada começou em 2021, quando fui apresentado ao
+                Minha jornada começou em 2022, quando fui apresentado ao
                 fascinante universo da programação por meio de amigos que
                 compartilhavam o mesmo interesse em um jogo online chamado Rose
                 Online. A curiosidade despertada naquele momento me levou a
@@ -38,7 +38,7 @@ export default function Home() {
                 JavaScript, incluindo bibliotecas e frameworks.
                 <br />
                 <span className="text-white">Estou constantemente buscando novos desafios e oportunidades
-                para expandir meu conhecimento e aprimorar minhas habilidades.</span>
+                para expandir meu conhecimento e aprimorar minhas habilidades. </span>
                 Sou apaixonado por criar soluções inovadoras e funcionais que
                 tenham um impacto positivo na vida das pessoas.
               </p>
