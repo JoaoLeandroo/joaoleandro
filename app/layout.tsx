@@ -12,8 +12,17 @@ const font = Poppins({ subsets: ["latin"], weight: [
 ] });
 
 export const metadata: Metadata = {
-  title: "JoaoLeandro - Desenvolvedor Front-End",
-  description: "em desenvolvimento...",
+  title: "JoaoLeandro - Desenvolvedor Web",
+  description: "João Leandro - Desenvolvedor Junior Frontend Engineer",
+  keywords: [
+    "Desenvolvimento Web",
+    "Frontend",
+    "Javascript",
+    "Nextjs",
+    "Reactjs",
+    "typescript",
+    "Tailwind css"
+  ]
 };
 
 export default function RootLayout({
