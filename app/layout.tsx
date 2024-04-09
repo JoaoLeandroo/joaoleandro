@@ -21,7 +21,9 @@ export const metadata: Metadata = {
     "Nextjs",
     "Reactjs",
     "typescript",
-    "Tailwind css"
+    "Tailwind css",
+    "João Leandro",
+    "joaoleandro"
   ]
 };
 
