@@ -73,7 +73,7 @@ export default function Home() {
               <CardProjects
                 imagem="/assets/techBooks.jpg"
                 titulo="TechBooks"
-                description="Nesse Projeto foi feito criado um site, que lista alguns livros de tecnologia, utilizando a API de livros do google."
+                description="Nesse Projeto criado um site, que lista alguns livros de tecnologia, utilizando a API de livros do google."
                 url="https://techinbooks.vercel.app/"
               />
               <CardProjects
