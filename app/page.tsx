@@ -71,6 +71,12 @@ export default function Home() {
                 url="https://stack-burguer-project.vercel.app/"
               />
               <CardProjects
+                imagem="/assets/techBooks.jpg"
+                titulo="TechBooks"
+                description="Nesse Projeto foi feito criado um site, que lista alguns livros de tecnologia, utilizando a API de livros do google."
+                url="https://techinbooks.vercel.app/"
+              />
+              <CardProjects
                 imagem="/assets/star-wars.jpg"
                 titulo="Star Wars - Cronologia"
                 description="Projeto inspirado nos filmes star wars, mostrando a ordem correta para se assistir aos filmes."
