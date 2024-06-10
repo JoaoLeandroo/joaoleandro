@@ -71,9 +71,15 @@ export default function Home() {
                 url="https://stack-burguer-project.vercel.app/"
               />
               <CardProjects
+                imagem="/assets/next-movies.jpg"
+                titulo="NextMovies"
+                description="Esse projeto tem como ideia trazer uma serie de informações de filmes e series, como se fosse um streaming de videos, foi utilizada a Api do theMovieDB."
+                url="https://nextmovies-project.vercel.app/"
+              />
+              <CardProjects
                 imagem="/assets/techBooks.jpg"
                 titulo="TechBooks"
-                description="Nesse Projeto criado um site, que lista alguns livros de tecnologia, utilizando a API de livros do google."
+                description="Nesse projeto foi criado um site, que lista alguns livros de tecnologia, utilizando a API de livros do google."
                 url="https://techinbooks.vercel.app/"
               />
               <CardProjects
