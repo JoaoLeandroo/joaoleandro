@@ -24,7 +24,16 @@ export const metadata: Metadata = {
     "Tailwind css",
     "João Leandro",
     "joaoleandro"
-  ]
+  ],
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      noimageindex: true,
+    }
+  }
 };
 
 export default function RootLayout({

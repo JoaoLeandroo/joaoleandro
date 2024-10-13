@@ -1,7 +1,8 @@
-import { SiJavascript, SiTypescript, SiHtml5, SiCss3, SiTailwindcss, SiPython, SiFigma } from "react-icons/si";
+import { SiJavascript, SiTypescript, SiHtml5, SiCss3, SiTailwindcss, SiPython, SiFigma, SiMysql } from "react-icons/si";
 import { DiNodejs } from "react-icons/di";
 import { FaGithub, FaReact, FaGitSquare } from "react-icons/fa";
 import { TbBrandNextjs, TbBrandNpm } from "react-icons/tb";
+import { BiLogoPostgresql } from "react-icons/bi";
 
 interface BoxStyleProps {
     children: React.ReactNode;
@@ -69,6 +70,14 @@ const SkillsBar = () => {
             <BoxStyle>
                 <FaGitSquare size={50} title="Git"/>
                 <p>Git</p>
+            </BoxStyle>
+            <BoxStyle>
+                <SiMysql size={50} title="My SQL"/>
+                <p>SQL</p>
+            </BoxStyle>
+            <BoxStyle>
+                <BiLogoPostgresql size={50} title="Postgres SQL"/>
+                <p>Postgres SQL</p>
             </BoxStyle>
         </div>
      );
