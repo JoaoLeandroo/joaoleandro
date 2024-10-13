@@ -43,7 +43,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
-      <body className={`${font.className} bg-gradient-to-r from-slate-900 to-indigo-950`}>{children}</body>
+      <body className={`${font.className} bg-gradient-to-r from-slate-900 to-indigo-950 selection:bg-emerald-300 selection:text-black`}>{children}</body>
     </html>
   );
 }
