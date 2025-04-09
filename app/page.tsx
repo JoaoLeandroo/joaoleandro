@@ -113,12 +113,6 @@ export default function Home() {
                 url="https://buscador-cep-react-six.vercel.app/"
               />
               <CardProjects
-                imagem="/assets/one-piece-live-action.jpg"
-                titulo="One piece - Liveaction"
-                description="Projeto inspirado no lançamento do liveaction do anime One Piece."
-                url="https://one-piece-liveaction-itkg.vercel.app/"
-              />
-              <CardProjects
                 imagem="/assets/luffy-gear-five.jpg"
                 titulo="Luffy Gear Five"
                 description="Projeto feito para demonstrar a grandiosidade da transformação do gear five, do personagem Luffy do anime One piece."
@@ -135,12 +129,6 @@ export default function Home() {
                 titulo="Lista de Tarefas"
                 description="Lista de tarefas com todos os requisitos de um CRUD, criar, ler, atualizar e deletar uma tarefa. Também foi utilizado o salvamento do localstorage."
                 url="https://joaoleandroo.github.io/task-list/"
-              />
-              <CardProjects
-                imagem="/assets/prime-flix.jpg"
-                titulo="Prime Flix"
-                description="Dentro desse projeto é consumida uma API de filmes, onde é possível salvar os filmes favoritos e visualizar os filmes em cartaz no cinema."
-                url="https://jl-movies.netlify.app/"
               />
               <CardProjects
                 imagem="/assets/projeto-music.jpg"
